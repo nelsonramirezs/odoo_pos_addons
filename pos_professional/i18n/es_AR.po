@@ -1,0 +1,1985 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_professional
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+p\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-13 01:51+0000\n"
+"PO-Revision-Date: 2021-04-13 14:31-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_AR\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__pos_session_limit__last5
+msgid " Load last 5 Session's Orders"
+msgstr " Cargar los pedidos de las últimas 5 sesiones"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/Base/ProductScreen.js:0
+#, python-format
+msgid "() está agotado."
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_pos_gift_coupon
+msgid ""
+"<br/>\n"
+"\t\t\t\t\t\t\t\t\t<strong>Amount:</strong>"
+msgstr ""
+"<br/>\n"
+"\t\t\t\t\t\t\t\t\t<strong>Monto:</strong>"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_pos_gift_coupon
+msgid ""
+"<br/>\n"
+"\t\t\t\t\t\t\t\t\t<strong>Issue Date:</strong>"
+msgstr ""
+"<br/>\n"
+"\t\t\t\t\t\t\t\t\t<strong>Issue Date:</strong>"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_pos_gift_coupon
+msgid "<span style=\"color:#E74C3C; font-weight: bold;\"> Name: </span>"
+msgstr "<span style=“color:#E74C3C; font-weight: bold;”> Nombre: </span>"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_invoice_document_inherit_discount
+msgid "<span>Disc.</span>"
+msgstr "<span>Dto.</span>"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_pos_gift_coupon
+msgid "<strong>Customer:</strong>"
+msgstr "<strong>Cliente:</strong>"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_pos_gift_coupon
+msgid "<strong>Expiry Date:</strong>"
+msgstr "<strong>Fecha de caducidad:</strong>"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__active
+msgid "Active"
+msgstr "Activo/a"
+
+#. module: pos_professional
+#: model:ir.actions.act_window,name:pos_professional.action_pos_coupan
+#: model:ir.ui.menu,name:pos_professional.menu_pos_gift_act
+msgid "All Gift Coupons"
+msgstr "Todos los cupones de regalo"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__show_stock_location__all
+msgid "All Warehouse"
+msgstr "Todos los depósitos"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__allow_bag_charges
+msgid "Allow Bag Charges"
+msgstr "Permitir cargos por bolsa de papel y/o plastico"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__pos_allow_order
+msgid "Allow POS Order When Product is Out of Stock"
+msgstr "Permitir pedido en punto de venta cuando el producto está agotado"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__is_categ
+msgid "Allow for Specific Category"
+msgstr "Permitir categoría específica"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__partner_true
+msgid "Allow for Specific Customer"
+msgstr "Permitir para cliente específica"
+
+#. module: pos_professional
+#: code:addons/pos_professional/models/pos_coupons_config.py:0
+#, python-format
+msgid "Allows only one activated Configuration of POS"
+msgstr "Permite solo una configuración activada de POS"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/CouponConfigPopup.js:0
+#, python-format
+msgid "Already Used !!!"
+msgstr "Ya usado !!!"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Amount :"
+msgstr "Monto :"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__amount_type
+#, python-format
+msgid "Amount Type"
+msgstr "Tipo de cantidad"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Apply"
+msgstr "Aplicar"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Apply Coupon On"
+msgstr "Aplicar cupón en"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__apply_coupon_on
+msgid "Apply Coupon on"
+msgstr "Aplicar cupón en"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Apply Coupon/Gift Voucher Code"
+msgstr "Aplicar código de cupón/regalo"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_product_product__available_quantity
+msgid "Available Quantity"
+msgstr "Cantidad disponible"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Back"
+msgstr "Volver"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_bag_charges.xml:0
+#, python-format
+msgid "Bag"
+msgstr "Bolsa"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__pos_bag_category_id
+msgid "Bag Charges Category"
+msgstr "Categoría de cargos por bolsa"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.pos_date
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_pos_gift_coupon
+msgid "Barcode"
+msgstr "Código de barras"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "CHANGE"
+msgstr "CAMBIO"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__cancle_order
+msgid "Cancel Sale Order after Import"
+msgstr "Cancelar el pedido de venta después de la importación"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Cancelar presupuesto después de la importación"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Cantidad"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Cargar pedidos de los últimos días"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Cargar solo borradores / pedidos de venta enviados"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Cargos por bolsa de plástico o papel"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Cerrar"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Cliente"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Cliente:"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: code:addons/pos_professional/static/src/xml/pos_bag_charges.xml:0
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Company:"
+msgstr "Empresa:"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Configuración de descuento en POS"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Configuración de stock en POS"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Configuración de ubicación de stock"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: model:ir.actions.report,name:pos_professional.action_gift_coupons
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order__coupon_id
+#: model_terms:ir.ui.view,arch_db:pos_professional.pos_date
+#, python-format
+msgid "Coupon"
+msgstr "Cupón"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__amount
+#, python-format
+msgid "Coupon Amount"
+msgstr "Monto del cupón"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Coupon Amount is greater than order amount"
+msgstr "El monto del cupón es mayor que el monto del pedido"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__c_barcode
+msgid "Coupon Barcode"
+msgstr "Código de barras del cupón"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__c_barcode_img
+msgid "Coupon Barcode Image"
+msgstr "Imagen de código de barras de cupón"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__coupon_apply_times
+msgid "Coupon Code Apply Limit"
+msgstr "Límite de aplicación de código de cupón"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_pos_gift_coupan_form_view
+msgid "Coupon Description..."
+msgstr "Descripción del cupón ..."
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_pos_gift_coupan_form_view
+msgid "Coupon History"
+msgstr "Historial de cupones"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Coupon Number :"
+msgstr "Número de cupón:"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Coupon Options"
+msgstr "Opciones de cupones"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_product_product__is_coupon_product
+#: model:ir.model.fields,field_description:pos_professional.field_product_template__is_coupon_product
+msgid "Coupon Product"
+msgstr "Producto de cupón"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Coupon Receipt"
+msgstr "Recibo de cupón"
+
+#. module: pos_professional
+#: code:addons/pos_professional/models/pos_coupon.py:0
+#, python-format
+msgid "Coupon amount is greater than maximum amount"
+msgstr "El monto del cupón es mayor que el monto máximo"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Coupon is not applicable here."
+msgstr "El cupón no es aplicable aquí."
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Coupon usage limit"
+msgstr "Límite de uso de cupones"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Crear Presupuesto"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Create"
+msgstr "Crear"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Create Coupon"
+msgstr "Crear cupón"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__credit_note__create_note
+msgid "Create Return order Credit note"
+msgstr "Crear comentario de Nota de crédito"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__user_id
+msgid "Created By"
+msgstr "Creado por"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__credit_note
+msgid "Credit note configuration"
+msgstr "Configuración de nota de crédito"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__show_stock_location__specific
+msgid "Current Session Warehouse"
+msgstr "Depósito usado en la Sesión actual"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Customer:"
+msgstr "Cliente:"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/ControlButtons/CreateSale.js:0
+#, python-format
+msgid "Debe haber al menos un producto en su pedido."
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Denegar orden pos"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid ""
+"Denegar pedido pos cuando la cantidad de producto desciende a la cantidad "
+"ingresada."
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/Base/ProductScreen.js:0
+#, python-format
+msgid "Denied Order"
+msgstr "Pedido denegado"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/Base/ProductScreen.js:0
+#, python-format
+msgid "Deny Order"
+msgstr "Denegar pedido"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/Base/ProductScreen.js:0
+#, python-format
+msgid "Deny Order() está agotado."
+msgstr ""
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__pos_deny_order
+msgid "Deny POS Order When Product Qty is goes down to"
+msgstr ""
+"Denegar pedido de punto de venta cuando la cantidad de producto se reduce a"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Descartar"
+msgstr ""
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__coupon_desc
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_pos_gift_coupan_form_view
+msgid "Description"
+msgstr "Descripción"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Detalles"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_move_form_inherits
+msgid "Disc"
+msgstr "Dto"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_saledetails_inherit_discount
+msgid "Disc:"
+msgstr "Desc:"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Discard"
+msgstr "Descarte"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: model_terms:ir.ui.view,arch_db:pos_professional.pos_date
+#, python-format
+msgid "Discount"
+msgstr "Descuento"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Discount Limit Exceeded !!!"
+msgstr "¡¡¡Límite de descuento excedido !!!"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_account_move_line__discount_line_type
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__discount_type
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order__discount_type
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order_line__discount_line_type
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_move_form_inherits
+msgid "Discount Type"
+msgstr "Tipo de descuento"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Discount amount is higher than maximum amount of this coupon."
+msgstr "El monto del descuento es mayor que el monto máximo de este cupón."
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.pos_date
+msgid "Discount type"
+msgstr "Tipo de descuento"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_discount.xml:0
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Discount:"
+msgstr "Descuento:"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Discounts"
+msgstr "Descuentos"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_account_move__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order_line__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_pos_session__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_product_product__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_product_template__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_report_point_of_sale_report_saledetails__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_report_pos_order__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:pos_professional.field_stock_quant__display_name
+msgid "Display Name"
+msgstr "Mostrar Nombre"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__pos_display_stock
+msgid "Display Stock in POS"
+msgstr "Mostrar Stock en POS"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__credit_note__not_create_note
+msgid "Do not Create Return order Credit note"
+msgstr "No crear nota de crédito"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Draft/New"
+msgstr "Borrador / Nuevo"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/ControlButtons/CreateSale.js:0
+#, python-format
+msgid "El Presupuesto  ha sido creado !!!!"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "El tipo de stock aparece en la pantalla POS."
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Email:"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/CouponConfigPopup.js:0
+#, python-format
+msgid "Empty Order"
+msgstr "Pedido vacío"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Enter Your Coupon Code Here"
+msgstr "Ingrese su código de cupón aquí"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/Base/ProductScreen.js:0
+#, python-format
+msgid "Error: Out of Stock"
+msgstr "Error: agotado"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Estado"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Expired"
+msgstr "Caducado"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__expiry_date
+#, python-format
+msgid "Expiry Date"
+msgstr "Fecha de caducidad"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__exp_dat_show
+msgid "Expiry Date."
+msgstr "Fecha de caducidad."
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Expiry date :"
+msgstr "Fecha de caducidad :"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_pos_gift_coupan_form_view
+msgid "Expiry date of this coupon"
+msgstr "Fecha de vencimiento de este cupón"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_pos_gift_coupan_form_view
+msgid "Extra Information"
+msgstr "Información extra"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Factura automática POS"
+msgstr "Factura automática POS"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Fecha"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Fecha:"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__discount_type__fixed
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_gift_coupon__amount_type__fix
+#, python-format
+msgid "Fixed"
+msgstr "Importe Fijo"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_pos_gift_coupan_form_view
+msgid "For your eyes only. This will never be displayed to the customer."
+msgstr "Confidencial. Esto nunca se mostrará al cliente."
+
+#. module: pos_professional
+#: model:ir.actions.report,name:pos_professional.gift_coupon_print
+msgid "Gift Coupon"
+msgstr "Cupón de regalo"
+
+#. module: pos_professional
+#: model:ir.ui.menu,name:pos_professional.menu_gift_coupon
+msgid "Gift Coupons"
+msgstr "Cupones de regalo"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Gift coupon"
+msgstr "Cupón de regalo"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Gift coupon is created successfully."
+msgstr "El cupón de regalo se creó correctamente."
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_account_move__id
+#: model:ir.model.fields,field_description:pos_professional.field_account_move_line__id
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__id
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__id
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order__id
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order_line__id
+#: model:ir.model.fields,field_description:pos_professional.field_pos_session__id
+#: model:ir.model.fields,field_description:pos_professional.field_product_product__id
+#: model:ir.model.fields,field_description:pos_professional.field_product_template__id
+#: model:ir.model.fields,field_description:pos_professional.field_report_point_of_sale_report_saledetails__id
+#: model:ir.model.fields,field_description:pos_professional.field_report_pos_order__id
+#: model:ir.model.fields,field_description:pos_professional.field_stock_picking__id
+#: model:ir.model.fields,field_description:pos_professional.field_stock_quant__id
+msgid "ID"
+msgstr "IDENTIFICACIÓN"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__check
+msgid "Import Sale Order"
+msgstr "Orden de venta de importación"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Importar"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Importar - Presupuesto"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Importar Cant."
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Importar Ordenes de Venta"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Importar Pedido"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Importar configuración en POS"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Importar productos"
+msgstr ""
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order__sale_order_ids
+msgid "Imported Sale Order(s)"
+msgstr "Pedidos de venta importados"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__pos_stock_type__incoming
+msgid "Incoming Qty"
+msgstr "Cantidad entrante"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/ControlButtons/CreateSale.js:0
+#, python-format
+msgid "Información del Presupuesto"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Invalid Amount !!!"
+msgstr "Monto invalido !!!"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/ControlButtons/ReturnOrderButton.js:0
+#, python-format
+msgid "Invalid Barcode"
+msgstr "Código de barras inválido"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Invalid Code !!!"
+msgstr "Invalid Code !!!"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Invalid Customer !!!"
+msgstr "Cliente invalido !!!"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__auto_check_invoice
+msgid "Invoice Auto Check"
+msgstr "Verificación automática de facturas"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Invoiced"
+msgstr "Facturado"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__issue_date
+#, python-format
+msgid "Issue Date"
+msgstr "Fecha de asunto"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Issue date :"
+msgstr "Fecha de asunto :"
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_account_move____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order_line____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_pos_session____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_product_product____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_product_template____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_report_point_of_sale_report_saledetails____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_report_pos_order____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_stock_picking____last_update
+#: model:ir.model.fields,field_description:pos_professional.field_stock_quant____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_bag_charges.xml:0
+#, python-format
+msgid "List of Bag Charges"
+msgstr "Lista de cargos por bolsas de plástico y/o papel"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__load_orders_days
+msgid "Load Orders of Last Days"
+msgstr "Cargar pedidos de los últimos días"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__pos_session_limit__all
+msgid "Load all Session's Orders"
+msgstr "Cargar todos los pedidos de la sesión"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__pos_session_limit__last3
+msgid "Load last 3 Session's Orders"
+msgstr "Cargar los pedidos de las últimas 3 sesiones"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__load_draft_sent
+msgid "Load only draft/sent sale orders"
+msgstr "Cargar solo borradores / pedidos de venta enviados"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Loading...."
+msgstr "Cargando…."
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order__location_id
+msgid "Location"
+msgstr "Localización"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Locked"
+msgstr "Bloqueado"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Logo"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Marque esto para mostrar el stock en la pantalla de pos."
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Max Amount"
+msgstr "Cantidad máxima"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Maximum Limit Exceeded !!!"
+msgstr ""
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__max_amount
+msgid "Maximum amount"
+msgstr "Cantidad máxima"
+
+#. module: pos_professional
+#: code:addons/pos_professional/models/pos_coupons_config.py:0
+#, python-format
+msgid "Maximum amount must be greater than minimum amount"
+msgstr "La cantidad máxima debe ser mayor que la cantidad mínima"
+
+#. module: pos_professional
+#: code:addons/pos_professional/models/pos_coupons_config.py:0
+#, python-format
+msgid "Minimum amount must be less than maximum amount"
+msgstr "La cantidad mínima debe ser menor que la cantidad máxima"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Mostrar borradores de pedidos"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Mostrar código de barras en el Ticket"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Mostrar pedidos de POS"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Mostrar pedidos en POS"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Mostrar pedidos registrados"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__name
+#, python-format
+msgid "Name"
+msgstr "Nombre"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Name :"
+msgstr "Nombre :"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_pos_gift_coupan_form_view
+msgid "New Gift Coupon"
+msgstr "Nuevo cupón de regalo"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/ControlButtons/ReturnOrderButton.js:0
+#, python-format
+msgid "No Order Found for this Barcode"
+msgstr "No se encontró ningún pedido para este código de barras"
+
+#. module: pos_professional
+#: code:addons/pos_professional/models/discount_n_coupon.py:0
+#, python-format
+msgid "No Taxes"
+msgstr "Sin impuestos"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Nota de Crédito con código de barras"
+msgstr ""
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__description
+msgid "Note"
+msgstr "Nota"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Número"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Número:"
+msgstr ""
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order__pos_order_date
+msgid "Oder Date"
+msgstr "Oder fecha"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/pos_orders/POSOrdersScreen.js:0
+#: code:addons/pos_professional/static/src/js/Screens/sales/SaleOrderScreen.js:0
+#, python-format
+msgid "Offline"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Ok"
+msgstr ""
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__order_ids
+msgid "Order"
+msgstr "Orden"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order__barcode
+msgid "Order Barcode"
+msgstr "Código de barras de pedido"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order__barcode_img
+msgid "Order Barcode Image"
+msgstr "Pedir imagen de código de barras"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Order Date"
+msgstr "Fecha pedido"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Order Date:"
+msgstr "Fecha de orden:"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Order Details"
+msgstr "Detalles del pedido"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Order Ref"
+msgstr "Ticket Nº"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Order Ref:"
+msgstr "Ticket Nº:"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Ordered Qty"
+msgstr "Cant. pedida"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/Base/ProductScreen.js:0
+#, python-format
+msgid "Ordered qty of One or more product(s) is more than available qty."
+msgstr ""
+"La cantidad pedida de Uno o más productos es mayor que la cantidad "
+"disponible."
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Orders"
+msgstr "Pedidos"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__pos_stock_type__outgoing
+msgid "Outgoing Qty"
+msgstr "Cant. Saliente"
+
+#. module: pos_professional
+#: model:pos.category,name:pos_professional.pos_bag_category_1
+msgid "POS Bag"
+msgstr "Bolsa de punto de venta"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__categ_ids
+msgid "POS Categories"
+msgstr "POS Categorías"
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_pos_gift_coupon
+msgid "POS Gift Coupon"
+msgstr "Cupón de regalo POS"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_pos_gift_coupan_tree_view
+msgid "POS Gift Coupons"
+msgstr "Cupones de regalo POS"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_account_bank_statement_line__pos_order_id
+#: model:ir.model.fields,field_description:pos_professional.field_account_move__pos_order_id
+#: model:ir.model.fields,field_description:pos_professional.field_account_move_line__pos_order_id
+#: model:ir.model.fields,field_description:pos_professional.field_account_payment__pos_order_id
+msgid "POS order"
+msgstr "Pedido POS"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_account_move_line__pos_order_line_id
+msgid "POS order Line"
+msgstr "Línea de pedido POS"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Paid"
+msgstr "Pagado"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__partner_id
+msgid "Partner"
+msgstr "Partner"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/ControlButtons/CreateSale.js:0
+#, python-format
+msgid "Pedido vacío"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__discount_type__percentage
+#, python-format
+msgid "Percentage"
+msgstr "Porcentaje"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Permitir pedidos en pos cuando el producto está agotado."
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#. module: pos_professional
+#: code:addons/pos_professional/models/pos_coupon.py:0
+#, python-format
+msgid ""
+"Please Enter Valid Date.Expiry Date Should not be greater than Issue Date."
+msgstr ""
+"Ingrese una fecha válida. La fecha de vencimiento no debe ser mayor que la "
+"fecha de emisión."
+
+#. module: pos_professional
+#: code:addons/pos_professional/models/discount_n_coupon.py:0
+#, python-format
+msgid "Please define income account for this product: \"%s\" (id:%d)."
+msgstr "Defina la cuenta de ingresos para este producto: “%s” (id:%d)."
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuración del TPV"
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_report_point_of_sale_report_saledetails
+msgid "Point of Sale Details"
+msgstr "Detalles del Punto de Venta"
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr "Líneas de Orden de Punto de Venta"
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Pedidos del TPV"
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_report_pos_order
+msgid "Point of Sale Orders Report"
+msgstr "Reporte de Órdenes del Punto de Venta"
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sesión TPV"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Posted"
+msgstr "Publicado"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Precio"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Presupuesto"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Presupuesto Enviado"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Presupuestos"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Price"
+msgstr "Precio"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_saledetails_inherit_discount
+msgid "Price Unit"
+msgstr "Unidad de precio"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_pos_gift_coupan_form_view
+#, python-format
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#: model:ir.model,name:pos_professional.model_product_product
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__product_id
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_saledetails_inherit_discount
+#, python-format
+msgid "Product"
+msgstr "Producto"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Product Not Available !!!"
+msgstr "Producto no disponible !!!"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Product Not available in POS."
+msgstr "Producto No disponible en POS."
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_bag_charges.xml:0
+#, python-format
+msgid "Product image"
+msgstr "Imagen del producto"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__pos_stock_type__available
+msgid "Qty Available"
+msgstr "Cantidad disponible"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__pos_stock_type__onhand
+msgid "Qty on Hand"
+msgstr "Cantidad en mano"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: model_terms:ir.ui.view,arch_db:pos_professional.report_saledetails_inherit_discount
+#, python-format
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_stock_quant
+msgid "Quants"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Re-Order"
+msgstr "Volver a pedir"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Receipt"
+msgstr "Recibo"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Receipt Ref"
+msgstr "Pedido"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Receipt Ref:"
+msgstr "Pedido:"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Remain Qty"
+msgstr "Cant. Restante"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/Base/PaymentScreen.js:0
+#, python-format
+msgid "Remaining unsynced orders"
+msgstr "Órdenes restantes sin sincronizar"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Reorder Products"
+msgstr "Reordenar productos"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Reorder Qty"
+msgstr "Reordenar Cant."
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Reprint Order"
+msgstr "Orden de reimpresión"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Return Order"
+msgstr "Nota de Crédito"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/ControlButtons/ReturnOrderButton.js:0
+#, python-format
+msgid "Return Order Barcode"
+msgstr "Código de barras de Nota de Crédito"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order__return_order_ref
+msgid "Return Order Ref"
+msgstr "Aceptar"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Return Products"
+msgstr "Nota de crédito - Detalles"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order_line__return_qty
+#, python-format
+msgid "Return Qty"
+msgstr "Cantidad de devolución"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Return order Credit note configuration"
+msgstr "Configuración de nota de crédito"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Return-Order"
+msgstr "Nota de Crédito"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Sale Order"
+msgstr "Pedido de venta"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Search Orders"
+msgstr "Buscar pedidos"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Seleccionar categoría de bolsa"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Select Coupon"
+msgstr "Seleccionar cupón"
+
+#. module: pos_professional
+#: model:ir.model.fields,help:pos_professional.field_pos_config__discount_type
+msgid "Seller can apply different Discount Type in POS."
+msgstr "El vendedor puede aplicar diferentes tipos de descuento en POS."
+
+#. module: pos_professional
+#: model:ir.model.fields,help:pos_professional.field_pos_config__pos_stock_type
+msgid "Seller can display Different stock type in POS."
+msgstr "El vendedor puede mostrar diferentes tipos de stock en POS."
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Served by"
+msgstr "Servido por"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Session Limit Configuration"
+msgstr "Configuración de límite de sesión"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__pos_session_limit
+msgid "Session limit"
+msgstr "Límite de sesión"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Session:"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid ""
+"Set session limit to load pos orders. If you have more than 1000 orders, "
+"then we recommend not to use \"Load all\" option."
+msgstr ""
+"Establecer límite de sesión para cargar pedidos pos. Si tiene más de 1000 "
+"pedidos, le recomendamos que no utilice la opción “Cargar todo”."
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__show_barcode
+msgid "Show Barcode in Receipt"
+msgstr "Mostrar código de barras en el ticket"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__show_draft
+msgid "Show Draft Orders"
+msgstr "Mostrar borradores de pedidos"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__show_order
+msgid "Show Orders"
+msgstr "Mostrar pedidos"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__show_posted
+msgid "Show Posted Orders"
+msgstr "Mostrar pedidos registrados"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__show_stock_location
+msgid "Show Stock Of"
+msgstr "Mostrar stock de"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__pos_session_limit__current_session
+msgid "Solo pedidos de la sesión actual"
+msgstr ""
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_config__pos_session_limit__current_day
+msgid "Solo pedidos del día actual"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Specific Category"
+msgstr "Categoría específica"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "Specific Customer"
+msgstr "Cliente específico"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "State"
+msgstr "Estado"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Status:"
+msgstr "Estado:"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__stock_location_id
+msgid "Stock Location"
+msgstr "Ubicación de stock"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_config__pos_stock_type
+msgid "Stock Type"
+msgstr "Tipo de stock"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Subtotal"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_stock.xml:0
+#, python-format
+msgid "Sync"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "TOTAL"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_gift_coupon__apply_coupon_on__taxed
+#, python-format
+msgid "Taxed Amount"
+msgstr "Importe gravado"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Tel:"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "The Coupon You are trying to apply is Expired"
+msgstr "El cupón que está intentando aplicar está caducado"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/Base/PaymentScreen.js:0
+#, python-format
+msgid "There are unsynced orders. Do you want to sync these orders?"
+msgstr "Hay órdenes no sincronizadas. ¿Quieres sincronizar estos pedidos?"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/CouponConfigPopup.js:0
+#, python-format
+msgid ""
+"There must be at least one product in your order before it can be apply for "
+"voucher code."
+msgstr ""
+"Debe haber al menos un producto en su pedido antes de que se pueda "
+"solicitar el código de cupón."
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "This Gift Coupon is not applicable for this Customer"
+msgstr "Este cupón de regalo no es aplicable para este cliente"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.view_pos_gift_coupan_form_view
+msgid ""
+"This will be displayed in the order summary, as well as on the invoice."
+msgstr "Esto se mostrará en el resumen del pedido, así como en la factura."
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Tipo de descuento"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Tipo de stock"
+msgstr ""
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Tipo de ubicación de stock del producto"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Total"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "Total Amount:"
+msgstr "Monto Total:"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/item_count.xml:0
+#, python-format
+msgid "Total Items :"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/item_count.xml:0
+#, python-format
+msgid "Total Items:"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "Total Taxes"
+msgstr "Total Impuestos"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Total:"
+msgstr ""
+
+#. module: pos_professional
+#: model:ir.model,name:pos_professional.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: pos_professional
+#: model_terms:ir.ui.view,arch_db:pos_professional.custom_pos_config_extended_form_view
+msgid "Ubicación de stock utilizada para inventario"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/pos_orders/POSOrdersScreen.js:0
+#, python-format
+msgid "Unable to load orders."
+msgstr "No se pueden cargar pedidos."
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/sales/SaleOrderScreen.js:0
+#, python-format
+msgid "Unable to load saleorders."
+msgstr "No se pueden cargar los pedidos de venta."
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/CouponConfigPopup.js:0
+#: code:addons/pos_professional/static/src/js/Screens/ControlButtons/CreateSale.js:0
+#, python-format
+msgid "Unknown customer"
+msgstr "Cliente desconocido"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_gift_coupon__apply_coupon_on__untaxed
+#, python-format
+msgid "Untaxed Amount"
+msgstr "Monto no tributable"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__used
+msgid "Used"
+msgstr "Usada"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/gift_coupon_voucher.xml:0
+#, python-format
+msgid "User:"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/reorder_reprint_return.xml:0
+#, python-format
+msgid "VAT:"
+msgstr "IVA:"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Vendedor"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/sale_orders.xml:0
+#, python-format
+msgid "Vendedor:"
+msgstr ""
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_orders_list.xml:0
+#, python-format
+msgid "View Orders"
+msgstr "Ver Pedidos"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "Voucher Code Entered by you is Invalid. Enter Valid Code..."
+msgstr ""
+"El código de cupón que ingresó no es válido. Ingrese un código válido …"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_discount.xml:0
+#, python-format
+msgid "With a"
+msgstr "Con un"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/SelectExistingCouponPopup.js:0
+#, python-format
+msgid "You already exceed the maximum number of limit for this Coupon code"
+msgstr "Ya excediste el número máximo de límite para este código de cupón"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Screens/ControlButtons/CreateSale.js:0
+#, python-format
+msgid "You cannot Create Sales Order. Select customer first."
+msgstr ""
+"No puede crear un presupuesto sin cliente. Seleccione al cliente primero."
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/CouponConfigPopup.js:0
+#, python-format
+msgid "You cannot use Coupons/Gift Voucher. Select customer first."
+msgstr ""
+"No puede utilizar Cupones / Vales de regalo. Seleccione al cliente primero."
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/js/Popups/GiftCoupon/CouponConfigPopup.js:0
+#, python-format
+msgid ""
+"You have already use Coupon code, at a time you can use one coupon in a "
+"Single Order"
+msgstr "Ya usó el código de cupón, puede usar un cupón en un solo pedido"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_gift_coupon__coupon_count
+msgid "coupon count"
+msgstr "recuento de cupones"
+
+#. module: pos_professional
+#. openerp-web
+#: code:addons/pos_professional/static/src/xml/pos_discount.xml:0
+#, python-format
+msgid "discount"
+msgstr "descuento"
+
+#. module: pos_professional
+#: model:ir.model.fields,field_description:pos_professional.field_pos_order_line__original_line_id
+msgid "original Line"
+msgstr "línea original"
+
+#. module: pos_professional
+#: model:ir.model.fields.selection,name:pos_professional.selection__pos_gift_coupon__amount_type__per
+msgid "percentage(%)"
+msgstr "porcentaje(%)"
