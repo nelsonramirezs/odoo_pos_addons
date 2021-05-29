@@ -28,7 +28,7 @@
         Adds Identification type field and AFIP Responsability type field to pos customer view.
     """,
 
-    'author': "Juan Manuel De Castro",
+    'author': "Pronexo",
     'website': "https://www.pronexo.com",
 
     'category': 'Sales/Point of Sale',
