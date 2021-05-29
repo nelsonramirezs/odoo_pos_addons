@@ -32,7 +32,7 @@
     'website': "https://www.pronexo.com",
 
     'category': 'Sales/Point of Sale',
-    'version': '1.0.2',
+    'version': '14.0.1.2',
 
     'price': 5.99,
     'currency': 'USD',
@@ -49,8 +49,6 @@
         "static/src/xml/Screens/ClientDetailsEdit.xml",
     ],
     'images': ['static/description/banner.png'],
-    
-    'application': True,
     'installable': True,
     'auto_install': False,
 }
