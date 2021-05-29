@@ -34,7 +34,7 @@
     'category': 'Sales/Point of Sale',
     'version': '14.0.1.2',
     'license': 'OPL-1',
-    'price': 5.99,
+    'price': 0.00,
     'currency': 'USD',
     
     'depends': ['point_of_sale', 'l10n_latam_base','contacts'],
