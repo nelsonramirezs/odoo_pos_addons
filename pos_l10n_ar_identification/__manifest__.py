@@ -32,7 +32,7 @@
     'website': "https://www.pronexo.com",
 
     'category': 'Sales/Point of Sale',
-    'version': '14.0.1.2',
+    'version': '14.0.1.3',
     'license': 'OPL-1',
     'price': 0.00,
     'currency': 'USD',
