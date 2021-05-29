@@ -28,13 +28,13 @@
         Adds Identification type field and AFIP Responsability type field to pos customer view.
     """,
 
-    'author': "Juan Manuel De Castro",
+    'author': "Pronexo",
     'website': "https://www.pronexo.com",
 
     'category': 'Sales/Point of Sale',
-    'version': '14.0.1.2',
+    'version': '14.0.1.3',
 
-    'price': 5.99,
+    'price': 0.00,
     'currency': 'USD',
     
     'depends': ['point_of_sale', 'l10n_latam_base','contacts'],
