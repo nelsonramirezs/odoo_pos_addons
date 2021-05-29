@@ -33,7 +33,7 @@
 
     'category': 'Sales/Point of Sale',
     'version': '14.0.1.2',
-
+    'license': 'OPL-1',
     'price': 5.99,
     'currency': 'USD',
     
