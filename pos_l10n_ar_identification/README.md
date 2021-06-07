@@ -1,4 +1,4 @@
-<img alt="Odoo by pronexo.com" src="https://raw.githubusercontent.com/pronexo-argentina/odoo_pos_addons/14.0/pos_l10n_ar_credit_note/static/description/ProNexo_Logo2021.png" />
+<img alt="Odoo by pronexo.com" src="https://raw.githubusercontent.com/pronexo-argentina/odoo_pos_addons/14.0/pos_l10n_ar_identification/static/description/ProNexo_Logo2021.png" />
 pronexo.com - https://www.pronexo.com
 
 Odoo V14
