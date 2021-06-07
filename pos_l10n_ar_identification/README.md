@@ -3,7 +3,7 @@ pronexo.com - https://www.pronexo.com
 
 Odoo V14
 
-Add fields Responsability Id and Doccument for Argentinian 
+Add fields Responsability ID and Document Number to Customer for Argentinian 
 =====================
 POS Fuelds
 
