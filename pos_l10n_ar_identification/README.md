@@ -3,7 +3,11 @@ pronexo.com - https://www.pronexo.com
 
 Odoo V14
 
-Add fields Responsability ID and Document Number to Customer for Argentinian 
+This module adds fields from Python models to POS models, and allows to:
+
+Add or edit customer fields like "Responsability Type", "Document Type".
+
+Use the above fields for other stuff like eInvoices.
 =====================
 POS Fuelds
 
