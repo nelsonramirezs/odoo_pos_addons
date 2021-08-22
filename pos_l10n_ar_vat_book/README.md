@@ -5,10 +5,11 @@ Odoo V14
 
 Generación Libro de IVA Ventas desde POS
 =====================
-POS Libro de IVA
+Módulo para generar asientos contables desde el pos y poder usarlos en libro de IVA
 
 Configuration
 =============
+Video: https://www.youtube.com/watch?v=j-hrkpJkUw4 
 * No additional configurations needed
 
 Company
